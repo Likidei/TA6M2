@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'helvetica';
-  src: url('./assets/styles/fonts/HelveticaNeue-Regular.woff2') format('woff2');
+  src: url('/assets/styles/fonts/HelveticaNeue-Regular.woff2') format('woff2');
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   overflow-x: hidden;
   background: 
     linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
-    url('./assets/img/3d-interior-moderno-sala-servidores.jpg') center/cover no-repeat fixed;
+    url('/assets/img/3d-interior-moderno-sala-servidores.jpg') center/cover no-repeat fixed;
   background-color: #f8f9fa;
   color: #2c3e50;           /* Texto oscuro */
   min-height: 100vh;
@@ -621,3 +621,4 @@ transform: translateY(0);
   }
 
 }
+
